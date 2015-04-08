@@ -1,0 +1,11 @@
+@mixin background-size($cover) {
+	-webkit-background-size: $cover;
+	   -moz-background-size: $cover;
+		-ms-background-size: $cover;
+		 -o-background-size: $cover;
+			background-size: $cover;
+}
+
+@mixin text-shadow($text-shadow) {
+	text-shadow: -1px 0 $text-shadow, 0 1px $text-shadow, 1px 0 $text-shadow, 0 -1px $text-shadow;
+}
