@@ -3,7 +3,7 @@
  * Main Script
  */
 
-// init Isotope
+//Changes .active on gallery buttons
 $(document).ready(function(){
     $("#gallery nav button").click(function(){
         $(this).addClass("active").siblings().removeClass("active");
