@@ -40,7 +40,16 @@
 					<div class="member-image"><img src="img/3.jpg" alt="Viktor Fransson"></div>
 					<h3>Viktor Fransson</h3>
 					<h4>BMW E30 Turbo</h4>
-					<p>Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver och blandade dem för att göra ett provexemplar av en bok</p>
+					<p>"Jag lever för driftingen"
+					<br><br>
+					"Jag lever för driftingen"
+					<br><br>
+					"Jag lever för driftingen"
+					<br><br>
+					"Jag lever för driftingen"
+					<br><br>
+					"Jag lever för driftingen"
+					</p>
 					<a href="#"><i class="fa fa-facebook"></i></a>
 					<a href="#"><i class="fa fa-instagram"></i></a>
 					<a href="#"><i class="fa fa-car"></i></a>
