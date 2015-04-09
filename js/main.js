@@ -3,11 +3,33 @@
  * Main Script
  */
 
-//Changes .active on gallery buttons
-$(document).ready(function(){
-    $("#gallery nav button").click(function(){
+$(document).ready(function() {
+	//Changes .active on gallery buttons
+    $("#gallery nav button").click(function() {
         $(this).addClass("active").siblings().removeClass("active");
     });
+
+    // Adds .gallery-active on button click to gallery items
+	$("button").click(function() {
+	    if($(this).data("filter") == "*"){
+	    	$(".2013").addClass("gallery-active");
+		    $(".2014").addClass("gallery-active");
+		    $(".2015").addClass("gallery-active");
+	    } else if($(this).data("filter") == "2013"){
+	    	$(".2014").removeClass("gallery-active");
+	    	$(".2015").removeClass("gallery-active");
+	    	$(".2013").addClass("gallery-active");
+	    } else if($(this).data("filter") == "2014"){
+	    	$(".2013").removeClass("gallery-active");
+	    	$(".2015").removeClass("gallery-active");
+	    	$(".2014").addClass("gallery-active");
+	    } else if($(this).data("filter") == "2015"){
+	    	$(".2014").removeClass("gallery-active");
+	    	$(".2013").removeClass("gallery-active");
+	    	$(".2015").addClass("gallery-active");
+	    }
+	});
+
 });
 
 
