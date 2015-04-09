@@ -32,7 +32,7 @@
 				<ul>
 					<li><a href="#">Event</a></li>
 					<li><a href="#">Galleri</a></li>
-					<li><a href="#">Om Oss</a></li>
+					<li><a href="#">Medlemmar</a></li>
 					<li><a href="#">Kontakt</a></li>
 				</ul>
 			</nav>
