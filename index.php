@@ -1,8 +1,4 @@
 <?php include("incl/header.php"); ?>
-
-
-
-
 		<section id="gallery">
 				<h2>Galleri</h2>
 				<nav>
@@ -13,21 +9,29 @@
 				</nav>
 				<div id="gallery-container">
 					<div class="item 2014 gallery-active">
-						<img src="img/gallery/1.jpg">
+						<a href=""><img src="img/gallery/1.jpg"></a>
 					</div>
 					<div class="item 2013 gallery-active">
-						<img src="img/gallery/2.jpg">
+						<a href=""><img src="img/gallery/2.jpg"></a>
 					</div>
 					<div class="item 2015 gallery-active">
-						<img src="img/gallery/3.jpg">
+						<a href=""><img src="img/gallery/3.jpg"></a>
 					</div>
 					<div class="item 2014 gallery-active">
-						<img src="img/gallery/4.jpg">
+						<a href=""><img src="img/gallery/4.jpg"></a>
 					</div>
 				</div>
 		</section>
 
 
-		<section class="divider"></section>
+		<section id="members">
+			<h2>Medlemmar</h2>
+			<div id="member-container">
+				<div class="member"></div>
+				<div class="member"></div>
+				<div class="member"></div>
+				<div class="member"></div>
+			</div>
+		</section>
 
 		<?php include("incl/footer.php"); ?>
