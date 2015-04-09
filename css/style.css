@@ -151,7 +151,22 @@ section#members {
           border: 3px solid #fff; }
         section#members #member-container .member .member-image:hover {
           top: -75px; }
+      section#members #member-container .member h3 {
+        font-size: 1.5em;
+        position: relative;
+        top: -135px; }
+      section#members #member-container .member h4 {
+        font-size: 1.2em;
+        font-style: italic;
+        position: relative;
+        top: -130px; }
+      section#members #member-container .member p {
+        font-size: 1em;
+        position: relative;
+        top: -100px; }
       section#members #member-container .member a {
+        top: -80px;
+        position: relative;
         border-radius: 50%;
         width: 31px;
         height: 31px;

@@ -31,7 +31,7 @@
 					<div class="member-image"><img src="img/2.jpg" alt="Jim Andersson"></div>
 					<h3>Jim Andersson</h3>
 					<h4>BMW E30 Turbo</h4>
-					<p>Lorem Ipsum Dipsum Lorem Ipsum Dipsum</p>
+					<p>Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver och blandade dem för att göra ett provexemplar av en bok</p>
 					<a href="#"><i class="fa fa-facebook"></i></a>
 					<a href="#"><i class="fa fa-instagram"></i></a>
 					<a href="#"><i class="fa fa-car"></i></a>
@@ -40,7 +40,7 @@
 					<div class="member-image"><img src="img/3.jpg" alt="Viktor Fransson"></div>
 					<h3>Viktor Fransson</h3>
 					<h4>BMW E30 Turbo</h4>
-					<p>Lorem Ipsum Dipsum Lorem Ipsum Dipsum</p>
+					<p>Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver och blandade dem för att göra ett provexemplar av en bok</p>
 					<a href="#"><i class="fa fa-facebook"></i></a>
 					<a href="#"><i class="fa fa-instagram"></i></a>
 					<a href="#"><i class="fa fa-car"></i></a>
@@ -49,7 +49,7 @@
 					<div class="member-image"><img src="img/4.jpg" alt="Joakim Gustafsson"></div>
 					<h3>Joakim Gustafsson</h3>
 					<h4>BMW E30 Turbo</h4>
-					<p>Lorem Ipsum Dipsum Lorem Ipsum Dipsum</p>
+					<p>Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver och blandade dem för att göra ett provexemplar av en bok</p>
 					<a href="#"><i class="fa fa-facebook"></i></a>
 					<a href="#"><i class="fa fa-instagram"></i></a>
 					<a href="#"><i class="fa fa-car"></i></a>
@@ -58,7 +58,7 @@
 					<div class="member-image"><img src="img/5.jpg" alt="Johan Ingvaldsson"></div>
 					<h3>Johan Ingvaldsson</h3>
 					<h4>BMW E30 Turbo</h4>
-					<p>Lorem Ipsum Dipsum Lorem Ipsum Dipsum</p>
+					<p>Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver och blandade dem för att göra ett provexemplar av en bok</p>
 					<a href="#"><i class="fa fa-facebook"></i></a>
 					<a href="#"><i class="fa fa-instagram"></i></a>
 					<a href="#"><i class="fa fa-car"></i></a>
