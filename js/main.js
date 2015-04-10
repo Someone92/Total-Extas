@@ -11,6 +11,7 @@ $(document).ready(function() {
 
     // Adds .gallery-active on button click to gallery items
     // Ändra så det inte är så jävla långt
+    // gör en .each(function() { ... });
 	$("button").click(function() {
 	    if($(this).data("filter") == "*"){
 	    	$(".2013").addClass("gallery-active");
