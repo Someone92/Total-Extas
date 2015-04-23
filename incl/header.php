@@ -1,28 +1,10 @@
-<?php
-	include("db/connect.php");
-	$database = "total_extas";
-
-	$conn = mysql_connect("localhost", "root", "password");
-	mysql_select_db($database) or die("Error". mysql_error() );
-	$info = "SELECT * FROM gallery";
-
-	$result = mysql_query($info) or die (mysql_error());
-
-	while($row = mysql_fetch_array($result)) {
-		echo $row['id'];
-		#echo $row['indexImg'];
-		echo $row['galleryImages'];
-		#echo $row['galleryVideos'];
-		#echo $row['galleryText'];
-	}
-?>
 <!DOCTYPE html>
 <html>
 	<head>
 		<title>Total Extas</title>
 
 		<!-- Meta Tags -->
-		<meta charset="utf-8">
+		<meta chraset="utf-8">
 		<meta name="author" content="Jens Andersson">
 		<meta name="description" content="">
 		<meta name="keywords" content="">
