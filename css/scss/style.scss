@@ -23,7 +23,8 @@ section {
 	&#header {
 		width: 100%;
 		position: fixed;
-			transition: all 0.3s ease-in-out;
+		z-index: 10;
+		@include transition(all 0.3s ease-in-out);
 
 		&.scroll {
 			background-color: rgba($footer, .9);
