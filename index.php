@@ -8,18 +8,11 @@
 					<button data-filter="2013" class="">2013</button>
 				</nav>
 				<div id="gallery-container">
-					<div class="item 2014 gallery-active">
-						<a href=""><img src="img/gallery/1.jpg"></a>
-					</div>
-					<div class="item 2013 gallery-active">
-						<a href=""><img src="img/gallery/2.jpg"></a>
-					</div>
-					<div class="item 2015 gallery-active">
-						<a href=""><img src="img/gallery/3.jpg"></a>
-					</div>
-					<div class="item 2014 gallery-active">
-						<a href=""><img src="img/gallery/4.jpg"></a>
-					</div>
+					<?php while($row = mysql_fetch_array($result)) { ?>
+						<div class="item <?php echo $row['year']; ?> gallery-active">
+					    <a href=""><img src="<?php echo $row['indexImg']; ?>"></a>
+					    </div>
+					<?php } ?>
 				</div>
 		</section>
 

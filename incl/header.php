@@ -1,20 +1,11 @@
 <?php
-	include("db/connect.php");
+	include("db/db_setup.php");
 	$database = "total_extas";
 
 	$conn = mysql_connect("localhost", "root", "password");
 	mysql_select_db($database) or die("Error". mysql_error() );
 	$info = "SELECT * FROM gallery";
-
 	$result = mysql_query($info) or die (mysql_error());
-
-	while($row = mysql_fetch_array($result)) {
-		echo $row['id'];
-		#echo $row['indexImg'];
-		echo $row['galleryImages'];
-		#echo $row['galleryVideos'];
-		#echo $row['galleryText'];
-	}
 ?>
 <!DOCTYPE html>
 <html>
@@ -29,10 +20,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<!-- og:protocol - Facebook/Twitter links -->
-		<meta property="og:title" content="Jens Andersson">
-		<meta property="og:type" content="Portfolio.CV">
-		<meta property="og:url" content="andersson.se">
-		<meta property="og:image" content="Url to image">
+		<meta property="og:title" content="Total Extas">
+		<meta property="og:type" content="Drifting">
+		<meta property="og:url" content="totalextas.se">
+		<meta property="og:image" content="img/gallery/1.jpg">
 
 		<!-- CSS -->
 		<link rel="stylesheet" href="css/style.css">

@@ -28,7 +28,8 @@
 
 	// Create table
 	$sqlTable = "CREATE TABLE gallery (
-			id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
+			id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+			year INT(6) NOT NULL,
 			indexImg VARCHAR(50) NOT NULL,
 			galleryImages TEXT NOT NULL,
 			galleryVideos VARCHAR(50) NOT NULL,
