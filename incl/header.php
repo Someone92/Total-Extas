@@ -37,9 +37,9 @@
 	<body>
 		<section id="header" class="">
 			<nav>
-				<h1><a href="#">TOTAL EXTAS</a></h1>
+				<p><a href="#">TOTAL EXTAS</a></p>
 				<ul>
-					<li><a href="#">Event</a></li>
+					<li><a href="#">Kalender</a></li>
 					<li><a href="#">Galleri</a></li>
 					<li><a href="#">Medlemmar</a></li>
 					<li><a href="#">Kontakt</a></li>

@@ -18,6 +18,9 @@ body {
 }
 
 
+.clear {
+	clear: both;
+}
 section {
 
 	&#header {
@@ -35,12 +38,12 @@ section {
 			width: 960px;
 			margin: auto;
 
-			h1 {
+			p {
 				/*@include text-shadow(black);*/
 				color: #fff;
 				font-family: captureIT;
 				letter-spacing: 5px;
-				font-size: 2rem;
+				font-size: 2.5rem;
 				display: inline-block;
 				margin: 0;
 
@@ -59,7 +62,7 @@ section {
 					display: inline-block;
 					text-transform: uppercase;
 					letter-spacing: 5px;
-					margin: 0 20px;
+					margin: 0 10px;
 					font-family: Roboto;
 
 					a {
@@ -78,12 +81,53 @@ section {
 					url("../img/0.jpg") no-repeat center center fixed;
 		@include background-size(cover);
 	}
+	&#calendar {
+		width: 100%;
+		background: $calendar;
+		border-bottom: 1px solid #e5e5e5;
+		text-align: center;
+		padding: 50px 10px;
 
+		h2 {
+			margin-bottom: 20px;
+			text-transform: uppercase;
+			font-size: 3rem;
+			font-family: Roboto;
+			color: #ccc;
+			letter-spacing: 5px;
+		}
+		#calendar-container {
+			max-width: 1200px;
+			margin: auto;
+
+			.date,
+			.date-text {
+				height: 100px;
+				margin: 0 0 20px 0;
+				text-align: center;
+			}
+			.date {
+				width: 20%;
+				background: green;
+				float: left;
+			}
+			.date-text {
+				width: 80%;
+				background: red;
+				float: right;
+				line-height: 100px;
+				
+				h3 {
+					font-size: 3rem;
+				}
+			}
+		}
+	}
 	&#gallery {
 		width: 100%;
 		background: $gallery;
 		text-align: center;
-		padding: 50px 0;
+		padding: 50px 10px;
 
 		h2 {
 			margin-bottom: 20px;
