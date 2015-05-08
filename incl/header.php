@@ -37,12 +37,12 @@
 	<body>
 		<section id="header" class="">
 			<nav>
-				<p><a href="#">TOTAL EXTAS</a></p>
+				<p><a href="index.php">TOTAL EXTAS</a></p>
 				<ul>
-					<li><a href="#">Kalender</a></li>
-					<li><a href="#">Galleri</a></li>
-					<li><a href="#">Medlemmar</a></li>
-					<li><a href="#">Kontakt</a></li>
+					<li><a href="#calendar">Kalender</a></li>
+					<li><a href="#gallery">Galleri</a></li>
+					<li><a href="#members">Medlemmar</a></li>
+					<li><a href="#footer">Kontakt</a></li>
 				</ul>
 			</nav>
 		</section>
