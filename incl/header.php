@@ -35,9 +35,10 @@
 
 	</head>
 	<body>
+		<div id="top"></div>
 		<section id="header" class="">
 			<nav>
-				<p><a href="index.php">TOTAL EXTAS</a></p>
+				<p><a href="#top">TOTAL EXTAS</a></p>
 				<ul>
 					<li><a href="#calendar">Kalender</a></li>
 					<li><a href="#gallery">Galleri</a></li>
