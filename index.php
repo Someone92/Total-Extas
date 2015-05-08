@@ -34,7 +34,7 @@
 				<div id="gallery-container">
 					<?php while($row = mysql_fetch_array($result)) { ?>
 						<div class="item <?php echo $row['year']; ?> gallery-active">
-					    <a href=""><img src="<?php echo $row['indexImg']; ?>"></a>
+					    <a href="viewgallery.php?=<?php echo $row['year']; echo $row['location']; ?>"><img src="<?php echo $row['indexImg']; ?>"></a>
 					    </div>
 					<?php } ?>
 				</div>
