@@ -32,7 +32,6 @@
 			year INT(6) NOT NULL,
 			indexImg VARCHAR(50) NOT NULL,
 			galleryImages TEXT NOT NULL,
-			galleryVideos VARCHAR(50) NOT NULL,
 			galleryText VARCHAR(300) NOT NULL
 			)";
 
