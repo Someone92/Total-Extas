@@ -33,6 +33,7 @@ $(document).ready(function() {
 	});
 
 	/* Navigation Click */
+	$("nav a[href^='#']").on('click', function(e) {
 		e.preventDefault();
 
 		var hash = this.hash;
