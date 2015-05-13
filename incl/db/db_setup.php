@@ -31,7 +31,6 @@
 			id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
 			year INT(6) NOT NULL,
 			location VARCHAR(50) NOT NULL,
-			indexImg VARCHAR(50) NOT NULL,
 			galleryImages TEXT NOT NULL,
 			galleryText VARCHAR(300) NOT NULL
 			)";
