@@ -28,8 +28,14 @@
 				</nav>
 				<div id="gallery-container">
 					<?php while($row = mysql_fetch_array($result)) { ?>
+						<?php $randomIndex = array(); ?>
+						<?php foreach (explode(',', $row['galleryImages']) as $imgUrl){
+								array_push($randomIndex, $imgUrl);
+								$test = count($randomIndex);
+							} ?>
+							<?php $i = mt_rand(0, $test-1); ?>
 						<div class="item <?php echo $row['year']; ?> gallery-active">
-					    <a href="viewgallery.php?=<?php echo $row['year']; echo $row['location']; ?>"><img src="<?php echo $row['galleryImages']; ?>"></a>
+					    <a href="viewgallery.php?=<?php echo $row['year']; echo $row['location']; ?>"><img src="<?php print_r($randomIndex[$i]); ?>"></a>
 					    </div>
 					<?php } ?>
 				</div>
