@@ -2,26 +2,21 @@
 		<section id="calendar">
 			<h2>Kalender</h2>
 			<div id="calendar-container">
-				<div class="date">
-					<p>2015</p>
-					<h3>Maj</h3>
-					<p>16</p>
-				</div>
 				<div class="date-text">
 					<h3>Emmaboda - En dag på strippen</h3>
+					<p>2015 - Juni - 13</p>
 				</div>
 
-				<div class="date"></div>
 				<div class="date-text">
 					<h3>Emmaboda - En dag på strippen</h3>
+					<p>2015 - Juni - 13</p>
 				</div>
 
-				<div class="date"></div>
 				<div class="date-text">
 					<h3>Emmaboda - En dag på strippen</h3>
+					<p>2015 - Juni - 13</p>
 				</div>
 			</div>
-			<div class="clear"></div>
 		</section>
 		<section id="gallery">
 				<h2>Galleri</h2>
