@@ -37,6 +37,7 @@
 	<body>
 		<section id="header" class="">
 			<nav>
+				<div class="hamburger"></div>
 				<p><a href="index.php">TOTAL EXTAS</a></p>
 				<ul>
 					<li><a href="#calendar">Kalender</a></li>
