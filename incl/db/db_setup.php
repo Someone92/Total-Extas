@@ -2,6 +2,7 @@
 	$servername = "localhost";
 	$username = "root";
 	$password = "password";
+	$database = "total_extas";
 
 	// Create connection
 	$conn = mysqli_connect($servername, $username, $password);
@@ -13,14 +14,14 @@
 	}
 
 	// Make my_db the current database
-	$db_selected = mysqli_select_db($conn, 'total_extas');
+	$db_selected = mysqli_select_db($conn, $database);
 
 	if (!$db_selected) {
 	  // If we couldn't, then it either doesn't exist, or we can't see it.
-	  $sql = 'CREATE DATABASE total_extas';
+	  $sql = 'CREATE DATABASE' + $database;
 
 	  if (mysqli_query($conn, $sql)) {
-	      echo "Database total_extas created successfully\n";
+	      echo "Database" + $database + "created successfully\n";
 	  } else {
 	      echo 'Error creating database: ' . mysqli_error() . "\n";
 	  }
