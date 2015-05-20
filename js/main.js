@@ -57,3 +57,13 @@ $(window).scroll(function() {
 		$("#header").removeClass("scroll");
 	}
 });
+
+function rotateCard(btn){
+    var $card = $(btn).closest('.member-card');
+    console.log($card);
+    if($card.hasClass('hover')){
+        $card.removeClass('hover');
+    } else {
+        $card.addClass('hover');
+    }
+}

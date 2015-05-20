@@ -12,7 +12,13 @@
 		 -o-background-size: $cover;
 			background-size: $cover;
 }
-
+@mixin box-shadow($shadow) {
+	-webkit-box-shadow: $shadow;
+	   -moz-box-shadow: $shadow;
+		-ms-box-shadow: $shadow;
+		 -o-box-shadow: $shadow;
+			box-shadow: $shadow;
+}
 @mixin text-shadow($text-shadow) {
 	text-shadow: -1px 0 $text-shadow, 0 1px $text-shadow, 1px 0 $text-shadow, 0 -1px $text-shadow;
 }

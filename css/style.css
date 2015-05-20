@@ -157,7 +157,7 @@ section#gallery {
         -o-transition: all 0.5s ease;
         transition: all 0.5s ease; }
 section#members {
-  background-color: #f6f6f6;
+  background-color: #E5E9ED;
   text-align: center;
   padding: 50px 0;
   border-top: 1px solid #e5e5e5;
@@ -172,76 +172,140 @@ section#members {
   section#members #member-container {
     max-width: 1200px;
     margin: 100px auto 25px;
-    position: relative;
-    z-index: 1; }
-    section#members #member-container .member {
-      padding: 0 15px;
-      width: 23%;
-      height: 300px;
+    position: relative; }
+    section#members #member-container .member-card {
+      color: #333333;
       background: #fff;
       display: inline-block;
-      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); }
-      section#members #member-container .member:nth-child(2) {
-        margin: 0 10px 0 20px; }
-      section#members #member-container .member:nth-child(3) {
-        margin: 0 20px 0 10px; }
-      section#members #member-container .member .member-image {
-        display: inline-block;
-        position: relative;
-        top: -50px;
-        width: 150px;
-        height: 150px;
-        border-radius: 50% 50% 0 0;
-        z-index: -1;
-        -webkit-transition: top 0.3s ease-in-out;
-        -moz-transition: top 0.3s ease-in-out;
-        -ms-transition: top 0.3s ease-in-out;
-        -o-transition: top 0.3s ease-in-out;
-        transition: top 0.3s ease-in-out; }
-        section#members #member-container .member .member-image img {
-          box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
-          width: inherit;
-          height: inherit;
-          z-index: -2;
-          position: relative;
+      width: 280px;
+      height: 420px;
+      border-radius: 4px; }
+      section#members #member-container .member-card:nth-child(2) {
+        margin: 0 10px; }
+      section#members #member-container .member-card:nth-child(3) {
+        margin: 0 10px 0 0; }
+      section#members #member-container .member-card .front {
+        width: 100%;
+        height: 420px;
+        border-radius: 4px;
+        -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.14);
+        -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.14);
+        -ms-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.14);
+        -o-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.14);
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.14); }
+        section#members #member-container .member-card .front .cover {
+          height: 105px;
+          overflow: hidden;
+          border-radius: 4px 4px 0 0; }
+          section#members #member-container .member-card .front .cover img {
+            width: 100%; }
+        section#members #member-container .member-card .front .user {
           border-radius: 50%;
-          border: 3px solid #fff; }
-        section#members #member-container .member .member-image:hover {
-          top: -75px; }
-      section#members #member-container .member h3 {
-        font-size: 1.5rem;
-        position: relative;
-        top: -135px;
-        font-weight: 600; }
-      section#members #member-container .member h4 {
-        font-size: 1rem;
-        position: relative;
-        top: -130px;
-        letter-spacing: 3px;
-        text-transform: uppercase;
-        font-weight: 400; }
-      section#members #member-container .member p {
-        font-size: 1rem;
-        position: relative;
-        top: -115px;
-        min-height: 140px;
-        max-height: 140px;
-        overflow: hidden; }
-      section#members #member-container .member a {
-        top: -100px;
-        position: relative;
-        border-radius: 50%;
-        width: 31px;
-        height: 31px;
-        line-height: 28px;
-        border: 2px solid #d8d8d8;
-        color: #d8d8d8;
-        display: inline-block;
-        font-size: .8rem;
-        margin: 0 5px; }
-        section#members #member-container .member a:hover {
-          color: #9b9b9b;
-          border: 2px solid #9b9b9b; }
+          display: block;
+          height: 120px;
+          margin: -55px auto 0;
+          overflow: hidden;
+          width: 120px; }
+          section#members #member-container .member-card .front .user img {
+            background: none repeat scroll 0 0 #FFFFFF;
+            border: 4px solid #FFFFFF;
+            width: 100%;
+            border-radius: 50%; }
+        section#members #member-container .member-card .front .content {
+          background-color: transparent;
+          box-shadow: none;
+          padding: 10px 20px 20px; }
+          section#members #member-container .member-card .front .content .main {
+            min-height: 160px; }
+            section#members #member-container .member-card .front .content .main h3 {
+              font-size: 22px;
+              line-height: 28px;
+              margin: 10px 0 0;
+              text-align: center;
+              text-transform: capitalize; }
+            section#members #member-container .member-card .front .content .main p.profession {
+              color: #999999;
+              text-align: center;
+              margin-bottom: 20px; }
+            section#members #member-container .member-card .front .content .main h5 {
+              text-align: left;
+              font-size: 14px;
+              line-height: 20px;
+              font-weight: 400;
+              margin: 5px 0;
+              font-weight: 400;
+              line-height: 20px; }
+              section#members #member-container .member-card .front .content .main h5 i {
+                color: #999999; }
+              section#members #member-container .member-card .front .content .main h5 a {
+                color: inherit; }
+          section#members #member-container .member-card .front .content .footer {
+            border-top: 1px solid #EEEEEE;
+            color: #999999;
+            margin: 30px 0 0;
+            padding: 10px 0 0;
+            text-align: center; }
+            section#members #member-container .member-card .front .content .footer button {
+              margin-top: -6px;
+              opacity: .8;
+              color: #666666;
+              background-color: transparent; }
+              section#members #member-container .member-card .front .content .footer button:hover {
+                background-color: transparent;
+                box-shadow: none;
+                opacity: 1; }
+      section#members #member-container .member-card .back {
+        width: 100%;
+        height: 420px;
+        border-radius: 4px; }
+        section#members #member-container .member-card .back .header {
+          padding: 15px 20px;
+          height: 90px; }
+          section#members #member-container .member-card .back .header h5 {
+            border-bottom: 1px solid #EEEEEE;
+            color: #999999;
+            font-size: 14px;
+            font-weight: 400;
+            padding-bottom: 10px;
+            text-align: center;
+            margin: 5px 0;
+            font-weight: 400;
+            line-height: 20px;
+            font-size: 14px; }
+        section#members #member-container .member-card .back .content {
+          background-color: transparent;
+          box-shadow: none;
+          padding: 10px 20px 20px; }
+          section#members #member-container .member-card .back .content .main {
+            min-height: 160px;
+            height: 215px; }
+            section#members #member-container .member-card .back .content .main h4 {
+              font-size: 18px;
+              text-align: center;
+              margin: 10px 0;
+              font-weight: 500; }
+            section#members #member-container .member-card .back .content .main p {
+              margin: 0 0 10px; }
+        section#members #member-container .member-card .back .footer {
+          border-top: 1px solid #EEEEEE;
+          color: #999999;
+          margin: 30px 0 0;
+          padding: 10px 0 0;
+          text-align: center; }
+          section#members #member-container .member-card .back .footer button {
+            margin-top: -6px;
+            position: absolute;
+            left: 0;
+            bottom: 4px; }
+            section#members #member-container .member-card .back .footer button i {
+              font-size: 16px; }
+          section#members #member-container .member-card .back .footer .social-links {
+            font-size: 18px;
+            text-align: center; }
+            section#members #member-container .member-card .back .footer .social-links a {
+              margin: 0 7px;
+              color: #428bca;
+              text-decoration: none; }
 
 footer {
   height: 200px;
