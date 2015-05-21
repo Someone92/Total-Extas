@@ -180,20 +180,14 @@ section {
 			.item {
 				width: 33%;
 				display: none;
-				-webkit-transition: all 0.5s ease;
-			    	   -moz-transition: all 0.5s ease;
-			    		 -o-transition: all 0.5s ease;
-				    		transition: all 0.5s ease;
+				@include transition(all 0.5s ease);
 
 				img {
 					width: 100%;
 				}
 				&.gallery-active {
 					display: inline-block;
-					-webkit-transition: all 0.5s ease;
-			    	   -moz-transition: all 0.5s ease;
-			    		 -o-transition: all 0.5s ease;
-				    		transition: all 0.5s ease;
+				    @include transition(all 0.5s ease);
 				}
 			}
 		}
@@ -217,6 +211,7 @@ section {
 			max-width: 1200px;
 			margin: 100px auto 25px;
 			position: relative;
+        	@include perspective(800px);
 
 			.member-card {
 				color: #333333;
@@ -225,6 +220,15 @@ section {
 				width: 280px;
 				height: 420px;
 				border-radius: 4px;
+				position: relative;
+				@include transition(transform .5s);
+				@include transform-style(preserv-3d);
+				&.hover {
+					@include transform(rotateY(180deg));
+					&.card {
+						@include transform(none);
+					}
+				}
 				&:nth-child(2) {
 					margin: 0 10px;
 				}
@@ -236,6 +240,10 @@ section {
 					height: 420px;
 					border-radius: 4px;
 					@include box-shadow(0 1px 3px 0 rgba(0, 0, 0, 0.14));
+					position: absolute;
+					top: 0;
+					left: 0;
+        			@include backface-visibility(hidden);
 					.cover {
 						height: 105px;
 						overflow: hidden;
@@ -303,7 +311,8 @@ section {
 								opacity: .8;
 								color: #666666;
 								background-color: transparent;
-								&:hover {
+								&:hover,
+								&:focus {
 									background-color: transparent;
 									box-shadow: none;
 									opacity: 1;
@@ -316,6 +325,13 @@ section {
 					width: 100%;
 					height: 420px;
 					border-radius: 4px;
+					@include box-shadow(0 1px 3px 0 rgba(0, 0, 0, 0.14));
+					position: absolute;
+					top: 0;
+					left: 0;
+					@include backface-visibility(hidden);
+					@include transform(rotateY(180deg));
+					z-index: 3;
 					.header {
 						padding: 15px 20px;
 						height: 90px;

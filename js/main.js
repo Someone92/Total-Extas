@@ -45,6 +45,9 @@ $(document).ready(function() {
 		});
 	});
 
+	/* Tooltip button flip cards*/
+	$('[rel="tooltip"]').tooltip();
+
 });
 
 /* Navigation scroll */
@@ -57,6 +60,7 @@ $(window).scroll(function() {
 		$("#header").removeClass("scroll");
 	}
 });
+
 
 function rotateCard(btn){
     var $card = $(btn).closest('.member-card');
