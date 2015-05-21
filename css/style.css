@@ -273,6 +273,8 @@ section#members {
                 color: #999999; }
               section#members #member-container .member-card .front .content .main h5 a {
                 color: inherit; }
+                section#members #member-container .member-card .front .content .main h5 a:hover {
+                  opacity: 0.8; }
           section#members #member-container .member-card .front .content .footer {
             border-top: 1px solid #EEEEEE;
             color: #999999;
