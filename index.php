@@ -77,105 +77,15 @@
 								<h4>Areas of Expertise</h4>
 								<p>Web design, Adobe Photoshop, HTML5, CSS3, Corel and many others...</p>
 							</div>
-							<div class="footer">
-								<button rel="tooltip" title onclick="rotateCard(this)" title="Vänd">
-									<i class="fa fa-reply"></i> Back
-								</button>
-								<div class="social-links">
-									<a href=""><i class="fa fa-facebook fa-fw"></i></a>
-									<a href=""><i class="fa fa-twitter fa-fw"></i></a>
-									<a href=""><i class="fa fa-instagram fa-fw"></i></a>
-								</div>
-							</div>
 						</div>
-					</div>
-				</div>
-				<div class="member-card">
-					<div class="front">
-						<div class="cover">
-							<img src="img/card1.png">
-						</div>
-						<div class="user">
-							<img class="img-circle" src="img/rotating_card_profile.png">
-						</div>
-						<div class="content">
-							<div class="main">
-								<h3>Jim Andersson</h3>
-								<p class="profession">Bil Mekaniker</p>
-								<h5><i class="fa fa-map-marker fa-fw"></i> Tingsryd, Sverige</h5>
-								<h5><i class="fa fa-building-o fa-fw"></i> Carlqvist Bil AB</h5>
-								<h5><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:jimandersson@totalextas.se">jimandersson@totalextas.se</a></h5>
-							</div>
-							<div class="footer">
-								<button onclick="rotateCard(this)"><i class="fa fa-mail-forward"></i> Vänd</button>
-							</div>
-						</div>
-					</div>
-					<div class="back">
-						<div class="header">
-							<h5>"To be or not to be, this is my awesome motto!"</h5>
-						</div>
-						<div class="content">
-							<div class="main">
-								<h4>Experience</h4>
-								<p>Mike was working with our team since 2012.</p>
-								<h4>Areas of Expertise</h4>
-								<p>Web design, Adobe Photoshop, HTML5, CSS3, Corel and many others...</p>
-							</div>
-							<div class="footer">
-								<button rel="tooltip" title onclick="rotateCard(this)" title="Vänd">
-									<i class="fa fa-reply"></i> Back
-								</button>
-								<div class="social-links">
-									<a href=""><i class="fa fa-facebook fa-fw"></i></a>
-									<a href=""><i class="fa fa-twitter fa-fw"></i></a>
-									<a href=""><i class="fa fa-instagram fa-fw"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="member-card">
-					<div class="front">
-						<div class="cover">
-							<img src="img/card1.png">
-						</div>
-						<div class="user">
-							<img class="img-circle" src="img/rotating_card_profile.png">
-						</div>
-						<div class="content">
-							<div class="main">
-								<h3>Jim Andersson</h3>
-								<p class="profession">Bil Mekaniker</p>
-								<h5><i class="fa fa-map-marker fa-fw"></i> Tingsryd, Sverige</h5>
-								<h5><i class="fa fa-building-o fa-fw"></i> Carlqvist Bil AB</h5>
-								<h5><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:jimandersson@totalextas.se">jimandersson@totalextas.se</a></h5>
-							</div>
-							<div class="footer">
-								<button onclick="rotateCard(this)"><i class="fa fa-mail-forward"></i> Vänd</button>
-							</div>
-						</div>
-					</div>
-					<div class="back">
-						<div class="header">
-							<h5>"To be or not to be, this is my awesome motto!"</h5>
-						</div>
-						<div class="content">
-							<div class="main">
-								<h4>Experience</h4>
-								<p>Mike was working with our team since 2012.</p>
-								<h4>Areas of Expertise</h4>
-								<p>Web design, Adobe Photoshop, HTML5, CSS3, Corel and many others...</p>
-							</div>
-							<div class="footer">
-								<button rel="tooltip" title onclick="rotateCard(this)" title="Vänd">
-									<i class="fa fa-reply"></i> Back
-								</button>
-								<div class="social-links">
-									<a href=""><i class="fa fa-facebook fa-fw"></i></a>
-									<a href=""><i class="fa fa-twitter fa-fw"></i></a>
-									<a href=""><i class="fa fa-instagram fa-fw"></i></a>
-								</div>
+						<div class="footer">
+							<button rel="tooltip" title onclick="rotateCard(this)" title="Vänd">
+								<i class="fa fa-reply"></i> Back
+							</button>
+							<div class="social-links">
+								<a href=""><i class="fa fa-facebook fa-fw"></i></a>
+								<a href=""><i class="fa fa-twitter fa-fw"></i></a>
+								<a href=""><i class="fa fa-instagram fa-fw"></i></a>
 							</div>
 						</div>
 					</div>

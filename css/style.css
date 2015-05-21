@@ -193,11 +193,11 @@ section#members {
       -ms-transition: transform 0.5s;
       -o-transition: transform 0.5s;
       transition: transform 0.5s;
-      -webkit-transform-style: preserv-3d;
-      -moz-transform-style: preserv-3d;
-      -ms-transform-style: preserv-3d;
-      -o-transform-style: preserv-3d;
-      transform-style: preserv-3d; }
+      -webkit-transform-style: preserve-3d;
+      -moz-transform-style: preserve-3d;
+      -ms-transform-style: preserve-3d;
+      -o-transform-style: preserve-3d;
+      transform-style: preserve-3d; }
       section#members #member-container .member-card.hover {
         -webkit-transform: rotateY(180deg);
         -moz-transform: rotateY(180deg);
@@ -287,7 +287,25 @@ section#members {
               margin-top: -6px;
               opacity: .8;
               color: #666666;
-              background-color: transparent; }
+              background-color: transparent;
+              display: inline-block;
+              padding: 6px 12px;
+              margin-bottom: 0;
+              font-size: 14px;
+              font-weight: normal;
+              line-height: 1.428571429;
+              text-align: center;
+              white-space: nowrap;
+              vertical-align: middle;
+              cursor: pointer;
+              background-image: none;
+              border: 1px solid transparent;
+              border-radius: 4px;
+              -webkit-user-select: none;
+              -moz-user-select: none;
+              -ms-user-select: none;
+              -o-user-select: none;
+              user-select: none; }
               section#members #member-container .member-card .front .content .footer button:hover, section#members #member-container .member-card .front .content .footer button:focus {
                 background-color: transparent;
                 box-shadow: none;
@@ -348,10 +366,29 @@ section#members {
           padding: 10px 0 0;
           text-align: center; }
           section#members #member-container .member-card .back .footer button {
+            background-color: transparent;
             margin-top: -6px;
             position: absolute;
             left: 0;
-            bottom: 4px; }
+            bottom: 4px;
+            display: inline-block;
+            padding: 6px 12px;
+            margin-bottom: 0;
+            font-size: 14px;
+            font-weight: normal;
+            line-height: 1.428571429;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            cursor: pointer;
+            background-image: none;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            -o-user-select: none;
+            user-select: none; }
             section#members #member-container .member-card .back .footer button i {
               font-size: 1rem; }
           section#members #member-container .member-card .back .footer .social-links {

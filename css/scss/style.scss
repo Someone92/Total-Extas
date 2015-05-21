@@ -222,7 +222,7 @@ section {
 				border-radius: 4px;
 				position: relative;
 				@include transition(transform .5s);
-				@include transform-style(preserv-3d);
+				@include transform-style(preserve-3d);
 				&.hover {
 					@include transform(rotateY(180deg));
 					&.card {
@@ -311,6 +311,24 @@ section {
 								opacity: .8;
 								color: #666666;
 								background-color: transparent;
+								display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 								&:hover,
 								&:focus {
 									background-color: transparent;
@@ -371,10 +389,29 @@ section {
 						padding: 10px 0 0;
 						text-align: center;
 						button {
+							background-color: transparent;
 							margin-top: -6px;
 							position: absolute;
 							left: 0;
 							bottom: 4px;
+							display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 							i {
 								font-size: 1rem;
 							}
