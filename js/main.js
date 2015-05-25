@@ -45,9 +45,6 @@ $(document).ready(function() {
 		});
 	});
 
-	/* Tooltip button flip cards*/
-	$('[rel="tooltip"]').tooltip();
-
 });
 
 /* Navigation scroll */

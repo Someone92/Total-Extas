@@ -82,7 +82,7 @@
 								</div>
 							</div>
 							<div class="footer">
-								<button rel="tooltip" onclick="rotateCard(this)" title="Vänd">
+								<button onclick="rotateCard(this)" title="Vänd">
 									<i class="fa fa-reply"></i> Back
 								</button>
 								<div class="social-links">
@@ -131,7 +131,7 @@
 								</div>
 							</div>
 							<div class="footer">
-								<button rel="tooltip" onclick="rotateCard(this)" title="Vänd">
+								<button onclick="rotateCard(this)" title="Vänd">
 									<i class="fa fa-reply"></i> Back
 								</button>
 								<div class="social-links">
@@ -180,7 +180,7 @@
 								</div>
 							</div>
 							<div class="footer">
-								<button rel="tooltip" onclick="rotateCard(this)" title="Vänd">
+								<button onclick="rotateCard(this)" title="Vänd">
 									<i class="fa fa-reply"></i> Back
 								</button>
 								<div class="social-links">

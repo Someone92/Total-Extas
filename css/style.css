@@ -186,7 +186,8 @@ section#members {
       width: 280px;
       height: 420px;
       border-radius: 4px;
-      position: relative; }
+      position: relative;
+      margin: 10px 0 0 0; }
       section#members #member-container .member-card.hover .card {
         -webkit-transform: rotateY(180deg);
         -moz-transform: rotateY(180deg);
@@ -194,9 +195,9 @@ section#members {
         -o-transform: rotateY(180deg);
         transform: rotateY(180deg); }
       section#members #member-container .member-card:nth-child(2) {
-        margin: 0 10px; }
+        margin: 10px 10px 0 10px; }
       section#members #member-container .member-card:nth-child(3) {
-        margin: 0 10px 0 0; }
+        margin: 10px 10px 0 0; }
       section#members #member-container .member-card .card {
         background: none repeat scroll 0 0 #FFFFFF;
         -webkit-transition: transform 0.5s;
