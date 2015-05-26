@@ -10,11 +10,8 @@ End date: ????-??-??
 
 ######Old images
 
-###1
-http://i.imgur.com/6y3sqAy.png
+#####1: http://i.imgur.com/6y3sqAy.png
 
-###2
-http://i.imgur.com/5JNbnMb.jpg
+#####2: http://i.imgur.com/5JNbnMb.jpg
 
-###3
-http://i.imgur.com/3UPdQQI.jpg
+#####3: http://i.imgur.com/3UPdQQI.jpg
