@@ -35,7 +35,7 @@
 							} ?>
 							<?php $i = mt_rand(0, $test-1); ?>
 						<div class="item <?php echo $row['year']; ?> gallery-active">
-					    <a href="viewgallery.php?=<?php echo $row['year']; echo $row['location']; ?>"><img src="<?php print_r($randomIndex[$i]); ?>"></a>
+					    <a href="viewgallery.php?=<?php echo $row['year']; echo $row['location']; ?>"><img src="<?php print_r($randomIndex[$i]); ?>" alt="<?php echo $row['year']; echo $row['location']; ?>"></a>
 					    </div>
 					<?php } ?>
 				</div>
