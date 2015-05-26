@@ -180,10 +180,16 @@ section {
 			.item {
 				width: 33%;
 				display: none;
+				overflow: hidden;
 				@include transition(all 0.5s ease);
-
 				img {
 					width: 100%;
+					@include transform(scale(1.1));
+					@include transition(all 1s ease);
+					&:hover {
+						@include transform(scale(1));
+						-webkit-filter: brightness(0.8);
+					}
 				}
 				&.gallery-active {
 					display: inline-block;

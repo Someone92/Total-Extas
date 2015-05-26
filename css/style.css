@@ -144,13 +144,31 @@ section#gallery {
     section#gallery #gallery-container .item {
       width: 33%;
       display: none;
+      overflow: hidden;
       -webkit-transition: all 0.5s ease;
       -moz-transition: all 0.5s ease;
       -ms-transition: all 0.5s ease;
       -o-transition: all 0.5s ease;
       transition: all 0.5s ease; }
       section#gallery #gallery-container .item img {
-        width: 100%; }
+        width: 100%;
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        transition: all 1s ease; }
+        section#gallery #gallery-container .item img:hover {
+          -webkit-transform: scale(1);
+          -moz-transform: scale(1);
+          -ms-transform: scale(1);
+          -o-transform: scale(1);
+          transform: scale(1);
+          -webkit-filter: brightness(0.8); }
       section#gallery #gallery-container .item.gallery-active {
         display: inline-block;
         -webkit-transition: all 0.5s ease;
