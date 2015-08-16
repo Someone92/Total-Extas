@@ -2,7 +2,7 @@
 	include("db/db_setup.php");
 	$database = "total_extas";
 
-	$conn = mysql_connect("localhost", "root", "password");
+	$conn = mysql_connect("127.0.0.1", "root", "");
 	mysql_select_db($database) or die("Error". mysql_error() );
 	$info = "SELECT * FROM gallery";
 	$result = mysql_query($info) or die (mysql_error());
